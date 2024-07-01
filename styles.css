@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e4e1e1;
+}
+
+.profile-card {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    box-shadow: #666 0 0 10px;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-family:cursive
+}
+
+.occupation {
+    font-size: 18px;
+    color: #666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.description {
+    font-size: 16px;
+    color: #0d1c7d;
+    margin: 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.phone {
+    font-size: 20px;
+    color: #2c1127;
+    margin: 5px 0;
+    font-style: inherit;
+}
+
+.email {
+    font-size: 20px;
+    color: #2c1127;
+    margin: 5px 0;
+    font-style: inherit;
+}
